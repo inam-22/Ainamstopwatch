@@ -14,8 +14,8 @@ body{
 .mainhead{
     position: absolute;
     top: 8%;
-    left: 39.7%;
-    font-size: 60px;
+    left: 41%;
+    font-size: 50px;
     color:cyan ;
     text-shadow: 5px 6px 6px #330033 ;
 }
@@ -61,10 +61,11 @@ body{
 @media screen and (max-width:575px) {
     .screen{
        font-size: 33px;
-       width: 300px;
+       width: 270px;
        height: 50px;
        padding-top: 15px;
-       margin-left: -30px;
+       margin-left: -40px;
+       
     
     
    }
@@ -93,5 +94,5 @@ button:hover{
     cursor: pointer;
 }
 #min,#sec,#msec{
-    margin: 15px;
+    margin: 8px;
 }
