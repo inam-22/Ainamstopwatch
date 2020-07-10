@@ -1,21 +1,20 @@
 html{
-    height: 100%;
+    height: 110%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98%;
-    
+    height: 88%;
     background-image: linear-gradient(to top,#330033 ,rgb(46, 134, 193));
     
 }
 .mainhead{
     position: absolute;
     top: 8%;
-    left: 41%;
-    font-size: 50px;
+    left: 40.5%;
+    font-size: 51px;
     color:cyan ;
     text-shadow: 5px 6px 6px #330033 ;
 }
@@ -26,6 +25,7 @@ body{
         left: 5%;
         
     }
+ }
     @media screen and (max-width:540px) {
         .mainhead{
            margin-top: 20px;
