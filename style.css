@@ -52,7 +52,7 @@ body{
  @media screen and (max-width:540px) {
     .container{
       width: 60%;
-      margin-left: 9px;
+      margin-left: 10.5px;
       margin-top: -25px;
     
    }
@@ -71,9 +71,10 @@ body{
     .screen{
        font-size: 33px;
        width: 270px;
-       height: 50px;
-       padding-top: 15px;
+       height: 45px;
+       padding-top: 10px;
        margin-left: -35px;
+       margin-top: -22px;
        
     
     
@@ -102,6 +103,15 @@ button:hover{
     background-color:#4B0082;
     cursor: pointer;
 }
+@media screen and (max-width:540px) {
+    .button{
+      
+      margin-left: 22px;
+      height: 155px;
+      
+   }
+ } 
+
 #min,#sec,#msec{
     margin: 8px;
 }
